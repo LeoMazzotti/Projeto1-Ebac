@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabeçalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.cabeçalho a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.container img {
+  height: 450px;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.container p {
+  margin-bottom: 15px;
+}
+
+.container li {
+  margin-bottom: 15px;
+}
+
+.suplementos li {
+  margin-bottom: 5px;
+}
+
+.fale-conosco {
+  gap: 20px;
+  padding: 20px;
+}
+
+.form {
+  display: grid;
+  width: 500px;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.form button,
+input {
+  height: 30px;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form button:hover {
+  background-color: rgb(71, 70, 70);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+footer{
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
